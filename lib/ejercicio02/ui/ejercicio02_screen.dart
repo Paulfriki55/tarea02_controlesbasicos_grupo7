@@ -26,7 +26,7 @@ class _Ejercicio02ScreenState extends State<Ejercicio02Screen> {
 
       final number = int.parse(_controller.text);
       final factorial = Ejercicio02Logic.calculateFactorial(number);
-      _result = 'El factorial de $_controller.text es: $factorial';
+      _result = factorial.toString();
     });
   }
 
