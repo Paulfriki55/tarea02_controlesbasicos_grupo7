@@ -3,7 +3,7 @@ import 'package:tarea02_controlesbasicos_grupo7/ejercicio01/ui/ejercicio01_scree
 import 'package:tarea02_controlesbasicos_grupo7/ejercicio02/ui/ejercicio02_screen.dart';
 import 'package:tarea02_controlesbasicos_grupo7/ejercicio03/ui/ejercicio03_screen.dart';
 import 'package:tarea02_controlesbasicos_grupo7/ejercicio04/ui/ejercicio04_screen.dart';
-import 'package:tarea02_controlesbasicos_grupo7/ejercicio05/ui/ejercicio05_screen.dart';
+import 'package:tarea02_controlesbasicos_grupo7/ejercicio05/ui/ui/ejercicio05_screen.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -187,8 +187,8 @@ class _MenuScreenState extends State<MenuScreen> {
               ),
               _buildExerciseCard(
                 'Ejercicio 5',
-                'Pendiente',
-                'Ejercicio en desarrollo.',
+                'Números primos',
+                'Visualización de todos los números primos del 3 al 32767.',
                 Icons.pending,
                 const Ejercicio05Screen(),
               ),
